@@ -72,78 +72,8 @@ function multiplicar() {
 }
 
 function limpar() {
-
+  document.getElementById('firstNumber').value = "";
+  document.getElementById('secondNumber').value = "";
+  let clean = document.getElementById('result');
+  clean.innerHTML = ""
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-let finalResult = "";
-
-escreve();
-
-function escreve() {
-  let result = document.getElementById('result');
-  result.innerHTML = finalResult;
-}
-
-function calcular(simbolo) {
-  let n1 = document.getElementsByClassName('firstNumber').value;
-  n1 = parseFloat(n1);
-  let n2 = document.getElementsByClassName('secondNumber').value;
-  n2 = parseFloat(n2);
-  // if(!n1) {
-  //   alert("primeiro digite o primeiro número");
-  //   return;
-  // }
-
-  switch(simbolo) {
-    case '+':
-      finalResult = n1 + n2;
-        break;
-    case '-':
-      finalResult = n1 - n2;
-      break;
-    case '/':
-      finalResult = n1 / n2;
-      break;
-    case '*':
-      finalResult = n1 * n2;
-  }
-
-  escreve();
-}
-
-*/
