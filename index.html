@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>João Fraga</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <main class="card">
+      <h1>Atividade Cap04</h1>
+      <label for="firstNumber">Digite um número:</label>
+      <input 
+        type="number" 
+        id="firstNumber"/>
+      <label for="secondNumber">Digite outro número:</label>
+      <input
+        type="number" 
+        id="secondNumber"/>
+      <div class="operadores">
+        <button onclick="somar()">somar</button>
+        <button onclick="subtrair()">subtrair</button>
+        <button onclick="dividir()">dividir</button>
+        <button onclick="multiplicar()">multiplicar</button>
+        <h3>Resultado:</h3>
+        <p id="result"></p>
+        <button onclick="limpar()" id="buttonLimpar">Limpar</button>
+      </div>
+    </main>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

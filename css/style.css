@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to top, #ed145b, #ad1c4a, #711b36, #3a1520, #000000);
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+}
+
+.card {
+  padding: 4.8rem 6.4rem;
+  background-color: white;
+  max-width: 42.8rem;
+
+  margin-inline: auto;
+
+  border-radius: 0.6rem;
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.operadores {
+  margin-top: 1rem;
+}
+
+h1 {
+  margin-bottom: 1rem;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input {
+  background: #e4e4e5;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 1.6rem;
+}
+
+input:focus {
+  outline: 2px solid #ed145b;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: #e4e4e5;
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+button:hover {
+  color: white;
+  background-color: #ed145b;
+}
+
+h3 {
+  margin-top: 2.5rem;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: #e4e4e5;
+  padding: 1.6rem;
+  border: 1px solid black;
+  border-radius: 4px;
+  color: black;
+  font-size: 1.6rem;
+}
+
+#buttonLimpar {
+  width: 100%;
+  font-weight: 700;
+}
+
+
+
+
