@@ -75,5 +75,5 @@ function limpar() {
   document.getElementById('firstNumber').value = "";
   document.getElementById('secondNumber').value = "";
   let clean = document.getElementById('result');
-  clean.innerHTML = ""
+  clean.innerHTML = "";
 }
